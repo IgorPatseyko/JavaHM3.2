@@ -12,6 +12,7 @@ public class Main {
             bonus = bonusPer100Rubles * 1.0;
         }
 
+
         // Рассчитываем итоговый счет
         double totalBalance = initialBalance + topUpAmount + bonus;
 
