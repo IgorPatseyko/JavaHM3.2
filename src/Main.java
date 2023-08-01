@@ -8,6 +8,7 @@ public class Main {
         // Рассчет количества бонусных миль
         int bonusMiles = (int) (ticketCost / milesPerRub);
 
+
         // Вывод результата на экран
         System.out.println("За купленный билет начислено " + bonusMiles + " бонусных миль.");
     }
