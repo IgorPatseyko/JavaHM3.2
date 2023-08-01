@@ -1,18 +1,14 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        int eaters = 5; // сколько людей будут есть
 
-        int water = 3000; // миллилитров воды
-        int potatoes = 5; // картофелин
-        int chicken = 6; // куриных бёдер
-        int spices = 10; // ложек специй
+        // Объявление переменных для входных данных и параметров программы
+        double ticketCost = 13676; // Стоимость билета в рублях
+        double milesPerRub = 20.0; // Количество рублей для одной бонусной мили
 
-        System.out.println("Сварили суп. На одного человека вышло:");
-        System.out.println((water / eaters) + " миллилитров(а) воды");
-        System.out.println((potatoes / eaters) + " картофелин(а/ы)");
-        System.out.println((chicken / eaters) + " куриных(ое) бёдер(ро)");
-        System.out.println((spices / eaters) + " ложек(ки/ка) специй");
+        // Рассчет количества бонусных миль
+        int bonusMiles = (int) (ticketCost / milesPerRub);
+
+        // Вывод результата на экран
+        System.out.println("За купленный билет начислено " + bonusMiles + " бонусных миль.");
     }
 }
